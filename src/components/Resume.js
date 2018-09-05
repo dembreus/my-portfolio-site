@@ -13,7 +13,7 @@ export default class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img src={Photo}
-                                 alt="avatar" style={{height: '250px', borderRadius: '50%'}}/>
+                                 alt="avatar" style={{height: 'auto',width: '100%', borderRadius: '50%'}}/>
                         </div>
                         <h2 style={{paddingTop: '2em'}}>Dillon Embreus</h2>
                         <h4 style={{color: 'grey'}}>Programmer</h4>

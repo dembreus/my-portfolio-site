@@ -13,7 +13,7 @@ export default class Contact extends Component{
                         <h2>Dillon Embreus</h2>
                         <img src={Photo}
                              alt="avatar"
-                             style={{height: '100%', borderRadius: '5%'}}/>
+                             style={{height: 'auto',width: '100%', borderRadius: '5%'}}/>
                         <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>lorem ipsum</p>
                     </Cell>
                     <Cell col={6}>
