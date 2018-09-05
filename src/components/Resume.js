@@ -3,6 +3,7 @@ import {Grid, Cell} from 'react-mdl'
 import Education from './Education'
 import Experience from './Experience'
 import Skills from "./Skills";
+import Photo from '../images/profile-pic.jpg'
 
 export default class Resume extends Component {
     render() {
@@ -11,8 +12,8 @@ export default class Resume extends Component {
                 <Grid>
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
-                            <img src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
-                                 alt="avatar" style={{height: '200px'}}/>
+                            <img src={Photo}
+                                 alt="avatar" style={{height: '250px', borderRadius: '50%'}}/>
                         </div>
                         <h2 style={{paddingTop: '2em'}}>Dillon Embreus</h2>
                         <h4 style={{color: 'grey'}}>Programmer</h4>

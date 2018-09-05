@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react'
 import {Grid, Cell,
     List, ListItem, ListItemContent} from "react-mdl";
+import Photo from '../images/profile-pic0.jpg'
+
 
 export default class Contact extends Component{
     render() {
@@ -9,9 +11,9 @@ export default class Contact extends Component{
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Dillon Embreus</h2>
-                        <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                        <img src={Photo}
                              alt="avatar"
-                             style={{hieght: '200px'}}/>
+                             style={{height: '100%', borderRadius: '5%'}}/>
                         <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>lorem ipsum</p>
                     </Cell>
                     <Cell col={6}>
