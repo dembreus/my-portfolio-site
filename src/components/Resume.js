@@ -3,7 +3,7 @@ import {Grid, Cell} from 'react-mdl'
 import Education from './Education'
 import Experience from './Experience'
 import Skills from "./Skills";
-import Photo from '../images/profile-pic.jpg'
+import Photo from '../images/profile-pic0.jpg'
 
 export default class Resume extends Component {
     render() {
@@ -13,7 +13,7 @@ export default class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img src={Photo}
-                                 alt="avatar" style={{height: 'auto',width: '100%', borderRadius: '50%'}}/>
+                                 alt="avatar" style={{height: 'auto',width: '100%'}}/>
                         </div>
                         <h2 style={{paddingTop: '2em'}}>Dillon Embreus</h2>
                         <h4 style={{color: 'grey'}}>Programmer</h4>
@@ -26,8 +26,8 @@ export default class Resume extends Component {
                         <p>(385) 444-6272</p>
                         <h5>Email</h5>
                         <p>dillon.embreus@gmail.com</p>
-                        <h5>Web</h5>
-                        <p>dillon-embreus.netlify.com</p>
+                        <h5>LinkedIn</h5>
+                        <p><a href="https://www.linkedin.com/in/dillon-embreus-7691a2166/" target="_blank">Dillon Embreus</a></p>
                         <hr style={{borderTop: '3px solid #2f94a3', width: '50%'}}/>
                     </Cell>
                     <Cell col={8}
