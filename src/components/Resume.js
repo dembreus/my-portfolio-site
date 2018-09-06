@@ -19,10 +19,12 @@ export default class Resume extends Component {
                             <img src={Photo}
                                  alt="avatar" style={{height: 'auto', width: '100%'}}/>
                         </div>
-                        <h2 style={{paddingTop: '2em'}}>Dillon Embreus</h2>
-                        <h4 style={{color: 'grey'}}>Programmer</h4>
+                        <h2 >Dillon Embreus</h2>
+                        <h4 style={{color: '#aaa'}}>Programmer</h4>
                         <hr style={{width: '50%'}}/>
-                        <p>lorem ipsum</p>
+                        <p>Just Recently graduated from Helio Training Coding Bootcamp. Received my Certificate of Proficiency for the fundamentals
+                            of javaScript and Creating Full-Stack applications.
+                        </p>
                         <hr style={{width: '50%'}}/>
                         <h5>Address</h5>
                         <p>Salt Lake City, UT, 84124</p>
@@ -54,7 +56,7 @@ export default class Resume extends Component {
                             schoolDescription={"Certification of Course Completion,\n" +
                             "Certification of Skills Proficiency"}
                         />
-                        <hr style={{borderTop: '3px solid #34e89e'}}/>
+                        <hr/>
                         <h2>Experience</h2>
 
                         <Experience
@@ -78,7 +80,7 @@ export default class Resume extends Component {
                             "Back to work with, because my ability to anticipate the needs of the\n" +
                             "bartender to ensure the bar operated swiftly."}
                         />
-                        <hr style={{borderTop: '3px solid #34e89e'}}/>
+                        <hr />
                         <h2>Skills</h2>
                         <Skills
                             skill={'JavaScript'}
