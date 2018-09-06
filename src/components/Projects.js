@@ -35,12 +35,8 @@ export default class Projects extends Component {
                                 <a href="https://github.com/dembreus/create-user-profile" target="_blank"><Button
                                     colored>GitHub
                                 </Button></a>
-                                {/*<Button colored>CodePen</Button>*/}
-                                {/*<Button colored>LiveDemo</Button>*/}
+                                <a href="https://create-user-profile.netlify.com/" target="_blank"><Button colored>LiveDemo</Button></a>
                             </CardActions>
-                            {/*<CardMenu style={{color: '#fff'}}>*/}
-                            {/*/!*<IconButton name="share"/>*!/*/}
-                            {/*</CardMenu>*/}
                         </Card>
                         {/* Project 2*/}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -58,12 +54,8 @@ export default class Projects extends Component {
                             <CardActions border>
                                 <a href="https://github.com/dembreus/scrubble" target="_blank"><Button colored>GitHub
                                 </Button></a>
-                                {/*<Button colored>CodePen</Button>*/}
-                                {/*<Button colored>LiveDemo</Button>*/}
+                                <a href="https://scrubble.netlify.com/" target="_blank"><Button colored>LiveDemo</Button></a>
                             </CardActions>
-                            {/*<CardMenu style={{color: '#fff'}}>*/}
-                            {/*<IconButton name="share"/>*/}
-                            {/*</CardMenu>*/}
                         </Card>
                         {/* Project 3*/}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -109,7 +101,6 @@ export default class Projects extends Component {
                                 <a href="https://github.com/dembreus/create-user-backend" target="_blank"><Button
                                     colored>GitHub
                                 </Button></a>
-                                {/*<Button colored>CodePen</Button>*/}
                                 {/*<Button colored>LiveDemo</Button>*/}
                             </CardActions>
                         </Card>
