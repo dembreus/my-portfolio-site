@@ -1,3 +1,24 @@
 .projects-grid {
-    display: flex;
+    /*display: flex;*/
+    /*background: #34e89e; !* fallback for old browsers *!*/
+    /*background: -webkit-linear-gradient(to right, #34e89e, #0f3443); !* Chrome 10-25, Safari 5.1-6 *!*/
+    /*background: linear-gradient(to bottom, #34e89e, #0f3443); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+}
+
+.project-card p{
+    height: 100%;
+    width: 100%;
+    padding: auto;
+}
+
+.react-project-title {
+    color: #ffffff !important;
+    height: 176px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png) center / cover
+}
+
+.content {
+
 }

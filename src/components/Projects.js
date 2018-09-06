@@ -2,10 +2,9 @@ import React, {Component, Fragment} from 'react'
 import {
     Tabs, Tab,
     Grid, Cell,
-    Card, CardTitle, CardActions, CardMenu, CardText,
-    Button, IconButton
+    Card, CardTitle, CardActions, CardText,
+    Button
 } from 'react-mdl'
-import Link from 'react-router-dom'
 import '../styles/Projects.css'
 
 
@@ -21,62 +20,63 @@ export default class Projects extends Component {
             case 0:
                 return (
                     <div className="projects-grid">
-                        {/* Create User Profile*/}
-                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{
-                                color: '#fff',
-                                height: '176px',
-                                background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png) center / cover'
-                            }}>
-                                Create User Profile
-                            </CardTitle>
-                            <CardText>
-                                This Project is a template to create a user profile, look up all users, and view user
-                                profiles
-                            </CardText>
-                            <CardActions border>
-                                <a href="https://github.com/dembreus/create-user-profile" target="_blank"><Button
-                                    colored>GitHub
-                                </Button></a>
-                                <a href="https://create-user-profile.netlify.com/" target="_blank"><Button colored>LiveDemo</Button></a>
-                            </CardActions>
-                        </Card>
-                        {/* Project 2*/}
-                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{
-                                color: '#fff',
-                                height: '176px',
-                                background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png) center / cover'
-                            }}>
-                                Scrubble
-                            </CardTitle>
-                            <CardText>
-                                This is a team project between myself and 5 others. This is a scrabble game that
-                                connects to different dictionary APIs to add a twist to the classic game.
-                            </CardText>
-                            <CardActions border>
-                                <a href="https://github.com/dembreus/scrubble" target="_blank"><Button colored>GitHub
-                                </Button></a>
-                                <a href="https://scrubble.netlify.com/" target="_blank"><Button colored>LiveDemo</Button></a>
-                            </CardActions>
-                        </Card>
-                        {/* Project 3*/}
-                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                            <CardTitle style={{
-                                color: '#fff',
-                                height: '176px',
-                                background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png) center / cover'
-                            }}>
-                                Pot Luck App
-                            </CardTitle>
-                            <CardText>
-                                This app uses firebase to keep track of who is bringing what to a pot luck.
-                            </CardText>
-                            <CardActions border>
-                                <a href="https://github.com/dembreus/fun-food-friends" target="_blank"><Button colored>GitHub</Button></a>
-                                <a href="https://byob.netlify.com/" target="_blank"><Button colored>LiveDemo</Button></a>
-                            </CardActions>
-                        </Card>
+                        <Grid>
+                            <Cell col={4}>
+                                {/* Create User Profile*/}
+                                <Card shadow={5} className="project-card" style={{minWidth: '450', margin: 'auto'}}>
+                                    <CardTitle className="react-project-title" style={{
+                                        // color: '#fff'
+                                    }}>
+                                        Create User Profile
+                                    </CardTitle>
+                                    <CardText>
+                                        This Project is a template to create a user profile, look up all users, and view user
+                                        profiles
+                                    </CardText>
+                                    <CardActions border>
+                                        <a href="https://github.com/dembreus/create-user-profile" target="_blank"><Button
+                                            colored>GitHub
+                                        </Button></a>
+                                        <a href="https://create-user-profile.netlify.com/" target="_blank"><Button colored>LiveDemo</Button></a>
+                                    </CardActions>
+                                </Card>
+                            </Cell>
+                            <Cell col={4}>
+                                {/* Project 2*/}
+                                <Card shadow={5} className="project-card">
+                                    <CardTitle className="react-project-title"
+                                               style={{color: '#fff'}}>
+                                        Scrubble
+                                    </CardTitle>
+                                    <CardText>
+                                        This is a team project between myself and 5 others. This is a scrabble game that
+                                        connects to different dictionary APIs to add a twist to the classic game.
+                                    </CardText>
+                                    <CardActions border>
+                                        <a href="https://github.com/dembreus/scrubble" target="_blank"><Button colored>GitHub
+                                        </Button></a>
+                                        <a href="https://scrubble.netlify.com/" target="_blank"><Button colored>LiveDemo</Button></a>
+                                    </CardActions>
+                                </Card>
+                            </Cell>
+                            <Cell col={4}>
+                                {/* Project 3*/}
+                                <Card shadow={5} className="project-card">
+                                    <CardTitle className="react-project-title"
+                                               style={{color: '#fff'}}>
+                                        Pot Luck App
+                                    </CardTitle>
+                                    <CardText>
+                                        This app uses firebase to keep track of who is bringing what to a pot luck.
+                                    </CardText>
+                                    <CardActions border>
+                                        <a href="https://github.com/dembreus/fun-food-friends" target="_blank"><Button colored>GitHub</Button></a>
+                                        <a href="https://byob.netlify.com/" target="_blank"><Button colored>LiveDemo</Button></a>
+                                    </CardActions>
+                                </Card>
+                            </Cell>
+                        </Grid>
+
                     </div>
                 );
             case 1:
@@ -84,7 +84,7 @@ export default class Projects extends Component {
             case 2:
                 return (<div>
                         {/* Scrubble the backend needs to be separated*/}
-                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <Card shadow={5} className="project-card">
                             <CardTitle style={{
                                 color: '#fff',
                                 height: '176px',
@@ -110,8 +110,9 @@ export default class Projects extends Component {
             case 3:
                 return (
                     <div>
+
                         {/* Create user profile backend*/}
-                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <Card shadow={5} className="project-card">
                             <CardTitle style={{
                                 color: '#fff',
                                 height: '176px',
@@ -155,6 +156,7 @@ export default class Projects extends Component {
                     <Cell col={12}>
                         <div className="content">{this.toggleCategories()}</div>
                     </Cell>
+
                 </Grid>
 
 

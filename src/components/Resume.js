@@ -10,14 +10,15 @@ export default class Resume extends Component {
     render() {
         return (
             <div>
-                <Grid className="resume-grid">
+                <Grid  className="resume-grid">
                     <Cell col={4}
                           className="resume-left-col">
                         <div
                             style={{textAlign: 'center'}}
                         >
                             <img src={Photo}
-                                 alt="avatar" style={{height: 'auto', width: '100%'}}/>
+                                 alt="avatar"
+                                 className="resume-img"/>
                         </div>
                         <h2 >Dillon Embreus</h2>
                         <h4 style={{color: '#aaa'}}>Programmer</h4>
