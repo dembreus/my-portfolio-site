@@ -6,7 +6,7 @@ import Photo from '../images/profile-pic.jpg'
 export default class LandingPage extends Component {
     render() {
         return (
-            <div style={{height: 'auto',width: "100%", margin: 'auto'}}>
+            <div style={{height: '100%',width: "100%", margin: 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img src={Photo}
@@ -19,13 +19,13 @@ export default class LandingPage extends Component {
                             <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Express | MongoDB</p>
                             <div className="social-links">
                                 {/*LinkedIn*/}
-                                <a href="/"
+                                <a href="https://www.linkedin.com/in/dillon-embreus-7691a2166/"
                                    rel="noopener noreferrer"
                                    target="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true"/>
                                 </a>
                                 {/*Github*/}
-                                <a href="/"
+                                <a href="https://github.com/dembreus"
                                    rel="noopener noreferrer"
                                    target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
