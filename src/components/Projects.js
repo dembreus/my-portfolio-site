@@ -64,19 +64,15 @@ export default class Projects extends Component {
                                 height: '176px',
                                 background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png) center / cover'
                             }}>
-                                React Project #3
+                                Pot Luck App
                             </CardTitle>
                             <CardText>
-                                Lorem Ipsum
+                                This app uses firebase to keep track of who is bringing what to a pot luck.
                             </CardText>
                             <CardActions border>
-                                <Button colored>GitHub</Button>
-                                <Button colored>CodePen</Button>
-                                <Button colored>LiveDemo</Button>
+                                <a href="https://github.com/dembreus/fun-food-friends" target="_blank"><Button colored>GitHub</Button></a>
+                                <a href="https://byob.netlify.com/" target="_blank"><Button colored>LiveDemo</Button></a>
                             </CardActions>
-                            <CardMenu style={{color: '#fff'}}>
-                                <IconButton name="share"/>
-                            </CardMenu>
                         </Card>
                     </div>
                 );
