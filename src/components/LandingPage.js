@@ -1,12 +1,13 @@
 import React, {Component, Fragment} from 'react'
 import '../App.css'
-import {Grid, Cell, Icon} from 'react-mdl';
+import {Grid, Cell} from 'react-mdl';
 import Photo from '../images/profile-pic.jpg'
+import '../styles/LandingPage.css'
 
 export default class LandingPage extends Component {
     render() {
         return (
-            <div style={{height: '100%',width: "100%", margin: 'auto'}}>
+            <div className="Landing-background">
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img src={Photo}

@@ -4,22 +4,26 @@ import Education from './Education'
 import Experience from './Experience'
 import Skills from "./Skills";
 import Photo from '../images/profile-pic0.jpg'
+import '../styles/Resume.css'
 
 export default class Resume extends Component {
     render() {
         return (
             <div>
-                <Grid>
-                    <Cell col={4}>
-                        <div style={{textAlign: 'center'}}>
+                <Grid className="resume-grid">
+                    <Cell col={4}
+                          className="resume-left-col">
+                        <div
+                            style={{textAlign: 'center'}}
+                        >
                             <img src={Photo}
-                                 alt="avatar" style={{height: 'auto',width: '100%'}}/>
+                                 alt="avatar" style={{height: 'auto', width: '100%'}}/>
                         </div>
                         <h2 style={{paddingTop: '2em'}}>Dillon Embreus</h2>
                         <h4 style={{color: 'grey'}}>Programmer</h4>
-                        <hr style={{borderTop: '3px solid #2f94a3', width: '50%'}}/>
+                        <hr style={{width: '50%'}}/>
                         <p>lorem ipsum</p>
-                        <hr style={{borderTop: '3px solid #2f94a3', width: '50%'}}/>
+                        <hr style={{width: '50%'}}/>
                         <h5>Address</h5>
                         <p>Salt Lake City, UT, 84124</p>
                         <h5>Phone</h5>
@@ -27,8 +31,9 @@ export default class Resume extends Component {
                         <h5>Email</h5>
                         <p>dillon.embreus@gmail.com</p>
                         <h5>LinkedIn</h5>
-                        <p><a href="https://www.linkedin.com/in/dillon-embreus-7691a2166/" target="_blank">Dillon Embreus</a></p>
-                        <hr style={{borderTop: '3px solid #2f94a3', width: '50%'}}/>
+                        <p><a href="https://www.linkedin.com/in/dillon-embreus-7691a2166/" target="_blank">Dillon
+                            Embreus</a></p>
+                        <hr style={{width: '50%'}}/>
                     </Cell>
                     <Cell col={8}
                           className="resume-right-col">

@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react'
+import '../styles/AboutMe.css'
 
 export default class AboutMe extends Component{
     render() {

@@ -6,6 +6,9 @@ import {
     Button, IconButton
 } from 'react-mdl'
 import Link from 'react-router-dom'
+import '../styles/Projects.css'
+
+
 
 export default class Projects extends Component {
     constructor(props) {
