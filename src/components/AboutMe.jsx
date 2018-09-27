@@ -1,12 +1,12 @@
-import React, { Component, Fragment } from "react";
+import React, { Fragment } from "react";
 import "../styles/AboutMe.css";
 
-export default class AboutMe extends Component {
-  render() {
-    return (
-      <div>
-        <h1>About page</h1>
-      </div>
-    );
-  }
-}
+const AboutMe = () => {
+  return (
+    <Fragment>
+      <h1>About page</h1>
+    </Fragment>
+  );
+};
+
+export default AboutMe;
