@@ -114,13 +114,48 @@ export default class Projects extends Component {
                   </CardActions>
                 </Card>
               </Cell>
+              <Cell col={4}>
+                {/* Vidly*/}
+                <Card
+                  shadow={5}
+                  className="project-card"
+                  style={{ minWidth: "450", margin: "auto" }}
+                >
+                  <CardTitle
+                    className="react-project-title"
+                    style={
+                      {
+                        // color: '#fff'
+                      }
+                    }
+                  >
+                    Vidly
+                  </CardTitle>
+                  <CardText>
+                    This project is a tutorial done through Mosh's Learning
+                    React Course. It has a table of movies to display, like and
+                    delete. It has pagination, sorting and filtering.
+                  </CardText>
+                  <CardActions border>
+                    <a href="https://github.com/dembreus/vidly" target="_blank">
+                      <Button colored>GitHub</Button>
+                    </a>
+                    <a
+                      href="https://movie-table-list.netlify.com/"
+                      target="_blank"
+                    >
+                      <Button colored>LiveDemo</Button>
+                    </a>
+                  </CardActions>
+                </Card>
+              </Cell>
             </Grid>
           </div>
         );
       case 1:
         return (
           <div>
-            <h1>this is Angular</h1>
+            <h1>Angular coming soon.</h1>
           </div>
         );
       case 2:
