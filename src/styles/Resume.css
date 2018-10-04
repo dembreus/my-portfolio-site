@@ -1,40 +1,43 @@
 .resume-right-col {
-    background: #27221f;
-    color: white;
-    padding: 2em;
-    border-radius: 10px
-
+  background: #27221f;
+  color: white;
+  padding: 2em;
+  border-radius: 10px;
 }
 
 .resume-right-col hr {
-    border-top: 3px solid #34e89e;
-
+  border-top: 3px solid #34e89e;
 }
 
 .resume-left-col {
-    color: white;
-    margin: 0;
+  color: white;
+  margin: 0;
 }
 
 .resume-left-col hr {
-    border-top: 3px solid #2f94a3;
-
+  border-top: 3px solid #2f94a3;
 }
 .resume-grid {
-    background: #34e89e; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0f3443, #34e89e); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /*top: 0;*/
-    /*left: 0;*/
-    display: block;
-    width: auto;
-    height: auto;
-    margin: auto !important;
+  background: #34e89e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0f3443,
+    #34e89e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0f3443,
+    #34e89e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+  display: block;
+  width: auto;
+  height: auto;
+  margin: auto !important;
 }
 
 .resume-img {
-    border-radius: 10px;
-    height: auto;
-    width: 100%;
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
 }
