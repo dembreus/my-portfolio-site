@@ -152,46 +152,46 @@ export default class Projects extends Component {
             </Grid>
           </div>
         );
-      case 1:
-        return (
-          <div>
-            <h1>Angular coming soon.</h1>
-          </div>
-        );
-      case 2:
-        return (
-          <div>
-            {/* Scrubble the backend needs to be separated*/}
-            <Card shadow={5} className="project-card">
-              <CardTitle
-                style={{
-                  color: "#fff",
-                  height: "176px",
-                  background:
-                    "url(https://montykamath.files.wordpress.com/2018/02/graphql.png) center / cover",
-                  backgroundColor: "#171e26"
-                }}
-              >
-                Scrubble's backend
-              </CardTitle>
-              <CardText>
-                This is the backend for my team's projects Scrubble.
-              </CardText>
-              <CardActions border>
-                <a
-                  href="https://github.com/dembreus/create-user-backend"
-                  target="_blank"
-                >
-                  <Button colored>GitHub</Button>
-                </a>
-                {/*<Button colored>LiveDemo</Button>*/}
-              </CardActions>
-            </Card>
-          </div>
-        );
+      // case 1:
+      //   return (
+      //     <div>
+      //       <h1>Angular coming soon.</h1>
+      //     </div>
+      //   );
+      // case 2:
+      //   return (
+      //     <div>
+      //       {/* Scrubble the backend needs to be separated*/}
+      //       <Card shadow={5} className="project-card">
+      //         <CardTitle
+      //           style={{
+      //             color: "#fff",
+      //             height: "176px",
+      //             background:
+      //               "url(https://montykamath.files.wordpress.com/2018/02/graphql.png) center / cover",
+      //             backgroundColor: "#171e26"
+      //           }}
+      //         >
+      //           Scrubble's backend
+      //         </CardTitle>
+      //         <CardText>
+      //           This is the backend for my team's projects Scrubble.
+      //         </CardText>
+      //         <CardActions border>
+      //           <a
+      //             href="https://github.com/dembreus/create-user-backend"
+      //             target="_blank"
+      //           >
+      //             <Button colored>GitHub</Button>
+      //           </a>
+      //           {/*<Button colored>LiveDemo</Button>*/}
+      //         </CardActions>
+      //       </Card>
+      //     </div>
+      //   );
 
       // these are the MongoDB Projects
-      case 3:
+      case 1:
         return (
           <div>
             {/* Create user profile backend*/}
@@ -239,8 +239,8 @@ export default class Projects extends Component {
           ripple
         >
           <Tab>React</Tab>
-          <Tab>Angular</Tab>
-          <Tab>GraphQL</Tab>
+          {/* <Tab>Angular</Tab> */}
+          {/* <Tab>GraphQL</Tab> */}
           <Tab>MongoDB</Tab>
         </Tabs>
         <Grid>
